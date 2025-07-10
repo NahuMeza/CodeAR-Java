@@ -1,5 +1,5 @@
 public class EjemplosTipos {
-    public static void main(String args[]){
+    public static void main(String[] args){
 
         // Tipos enteros
         int entero = 12;
