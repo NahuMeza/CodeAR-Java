@@ -1,8 +1,7 @@
 public class Condicionales {
-    public static void main(String[] args){
+
+    public static void ejemplo1(int a, int b){
         // Ejemplo 1
-        int a = 2;
-        int b = 0;
         int resultado = 0;
         if(b == 0){
             System.err.println("no se puede dividir por 0");
@@ -11,6 +10,9 @@ public class Condicionales {
             resultado = a / b;
         }
         System.err.println(resultado);
+    }
+
+    public static void ejemplo2(){
         // Ejemplo 2
         int numero = 14;
 
@@ -23,6 +25,11 @@ public class Condicionales {
         else{
             System.out.println("El numero es 6");
         }
+    }
+    public static void main(String[] args){
+        ejemplo1(2,3);
+        // Ejemplo 2
+        ejemplo2();
         // Ejemplo 3
         int res = 0;
         int num1 = 2;
